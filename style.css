@@ -1,0 +1,820 @@
+/*Fontes do google*/
+/* 
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+
+:root{
+    --font1: 'Roboto', sans-serif;
+    --font2: 'Open Sans', sans-serif;
+    --font3: 'Lato', sans-serif;
+    --font4: 'Montserrat', sans-serif;
+    --font5: 'Merriweather', serif;
+    --font6: 'PT Sans', sans-serif;
+    --font7: 'Lora', serif;
+    --font8: 'Source Sans Pro', sans-serif;
+    --font9: 'Playfair Display', serif;
+    --font10: 'Rubik', sans-serif;
+}
+ */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #232323;
+    /* background-image:linear-gradient(to left, #374051, #1b2437, #0e141f) ; */
+    transition: background-color 0.3s, color 0.3s;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+      
+    
+}
+
+/* .texto-topo, .box{
+    
+}
+
+#header{
+    transition: background-color 0.3s, color 0.3s
+}
+
+
+#footer{
+    transition: background-color 0.3s, color 0.3s
+}
+
+.active{
+    background-color: #4c8baf;
+    color: #fff;
+}
+
+.active #header{
+    background-color: #306aad;
+}
+
+.active #footer{
+    background-color: #3163be;
+} */
+
+header{
+    /* background-image: linear-gradient(to right, #0e141f, #1b2437, #3163be); */
+    background-color: black;
+    border-bottom: 2px solid tomato;
+    padding: 10px; 
+    display: flex;
+    justify-content: space-evenly;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+}
+h1{
+    font-size: 37px;
+    color: white;
+    font-weight: bolder;
+    
+}
+ul{
+   display: flex;
+   
+    
+}
+
+li{
+    line-height: 2.4;
+    margin-left: 17px;
+    list-style: none;
+}
+
+ul li a{
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: 0.6s ease-in-out;
+
+}
+
+ul li a:hover{
+    transform: translateY(-4px);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+
+#search{
+    line-height: 2.6;
+}
+
+/* .menu-mobile{
+    display: none;
+} */
+
+.bi-search{
+    background-color: none;
+    color: white;
+    font-size: 19px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+#contato{
+    width: 100px;
+    border-radius: 15px;
+    background-color: tomato;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .9s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+#contato:hover{
+    transform: translateY(-4px);
+}
+
+.btn-menu{
+    width: 50px;
+    border-radius: 2px;
+    padding: 1px;
+  cursor: pointer;
+    background: none;
+   border: none;
+  
+}
+
+.linha{
+    background-color: white;
+    width: 70%;
+    height: 2px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+    position: sticky;
+    bottom: 0%;
+    left: 0%;
+    
+}
+
+/* .btn-menu.ativar .linha:nth-child(1){
+    transform: translateY(36px) rotate(-45deg);
+    background-color: red;
+}
+.btn-menu.ativar .linha:nth-child(3){
+    transform: translateY(-36px) rotate(45deg);
+    background-color: red;
+} */
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+ 
+}
+
+ .noti-title{
+    text-align: center;
+    line-height: 3;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px 0px;
+}
+
+section h1{
+    text-align: center;
+   
+}
+
+.noticias-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card-noticed{
+    display: flex;
+  flex-wrap: wrap;
+
+
+   justify-content: center;
+   align-items: center;
+}
+
+.ver-mais{
+    display: flex;
+    justify-content: center;
+    margin-top: 37px;
+    
+}
+.ver-mais p{
+    color: tomato;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.ver-mais p:hover{
+    text-decoration: underline;
+}
+
+.esconder{
+    display: none;
+   
+}
+
+.exibir.esconder{
+    display: block;
+     transition: 1s;
+}
+
+
+
+.exibir{
+    color: white;
+}
+
+/*Política*/
+.img1{
+    background-image: url(imagens/poli01.jpg);
+    background-size: cover;
+
+}
+.img2{
+    background-image: url(imagens/poli02.jpg);
+    background-size: cover;
+
+}
+.img3{
+    background-image: url(imagens/poli03.jpg);
+    background-size: cover;
+
+}
+.img4{
+    background-image: url(imagens/poli04.jpg);
+    background-size: cover;
+
+}
+
+
+.img6{
+    background-image: url(imagens/poli05.jpg);
+    background-size: cover;
+
+}
+.img7{
+    background-image: url(imagens/3_o__s_by_firebrick.jpg);
+    background-size: cover;
+
+}
+.img8{
+    background-image: url(imagens/3d-1587696030689-9783.jpg);
+    background-size: cover;
+
+}
+
+.img9{
+    background-image: url(imagens/);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img10{
+   background-image: url(imagens/black-1587696832704-3364.jpg);
+    background-size: cover;
+    
+
+}
+.img11{
+    background-image: url(imagens/black-1587696885458-3799.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img12{
+    background-image: url(imagens/black-1587696924008-5447.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+
+/*Desportos*/
+.img13{
+    background-image: url(imagens/desp01.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img14{
+    background-image: url(imagens/car-1587699161745-5005.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img15{
+    background-image: url(imagens/computer-1587694480663-4000.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img16{
+    background-image: url(imagens/colorful-polygons-3d-abstract-1920x1080.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img17{
+    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img18{
+    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img19{
+    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img20{
+    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img21{
+    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img22{
+    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img23{
+    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img24{
+    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img25{
+    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img26{
+    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img27{
+    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img28{
+    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img30{
+    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img31{
+    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img32{
+    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img33{
+    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img34{
+    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img35{
+    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img36{
+    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img37{
+    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img38{
+    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img39{
+    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img40{
+    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img41{
+    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img17{
+    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img42{
+    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img43{
+    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img44{
+    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img45{
+    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+.img46{
+    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-size: cover;
+    background-position: right center;
+
+}
+
+div.card-noticed .box{
+     padding: 120px;
+     
+     width: 340px;
+     background-color: #ffffff42;
+     margin: 20px;
+     margin-left: 70px;
+     cursor: pointer;
+     transition: 0.2s; 
+     flex: 1;
+    
+    
+     
+}
+div.card-noticed .img1:hover{
+  
+}
+
+div.box span{
+    font-size: 15px;
+    position: relative;
+    padding: 6px;
+    
+    background-color: #232323;
+    border-bottom: 2px solid white;
+    
+}
+
+div.box span.texto-box{
+    position: absolute;
+    color: white;
+    top: 74%;
+    left: 0;
+}
+
+.artigo-data{
+    margin-top: 6px;
+    font-size: 12px;
+    color: lightgrey;
+}
+
+
+@keyframes slide-fade-in {
+    0%{
+        opacity: 0;
+        transform: translateY(5vh);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes slide-fade {
+    0%{
+        opacity: 0;
+        transform: translateX(5vw);
+        
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference){
+    .box, .atualImg, span{
+        view-timeline-name: --item-timeline;
+        animation: slide-fade-in 2s cubic-bezier(0.25, 0.1, 0.25, 1) both;
+        animation-timeline:  --item-timeline;
+        animation-range:  contain 0% contain 50%;
+    }
+
+    .card-noticed:nth-last-child(){
+        view-timeline-name: --item-timeline;
+        animation: slide-fade 2s cubic-bezier(0.25, 0.1, 0.25, 1) both;
+        animation-timeline:  --item-timeline;
+        animation-range:  contain 0% contain 50%;
+    }
+}
+
+
+h2{
+    color: white;
+}
+
+
+.atualidade{
+    background-color: #306aad;
+    color: white;
+    width: 100%;
+   height: 60vh;
+   padding: 20px;
+   margin-top: 19px;
+}
+
+.atualizacao{
+    padding: 5px;
+    display: flex;
+    background-color: #0000007a;
+    margin-top: 9px;
+}
+
+.atualizacao h4{
+    margin-left: 4px;
+    color: rgb(199, 199, 199);
+}
+
+.atualImg{
+    width: 140px;
+}
+
+.atualizacao span{
+ margin-left: 9px;
+ color: white;
+ font-size: 15px;
+ font-weight: 400;
+}
+
+.card-pequeno-e-pai{
+    background-color: #ff0303ad;
+    width: 350px;
+    margin-top: 9px;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-pequeno{
+    width: 120px;
+    padding: 40px;
+    background-color: tomato;
+    margin: 9px;
+}
+
+.subir-ate-ao-header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 9px;
+    margin-bottom: 9px;
+}
+
+.subir-ate-ao-header a{
+    animation: subir-e-descer 2s ease-in-out both infinite;
+}
+
+.bi-arrow-up{
+    font-size: 19px;
+ color: white;
+ padding: 7px;
+ border-radius: 50%;
+ transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+}
+
+.bi-arrow-up:hover{
+    border: 2px solid white;
+    box-shadow: 1px 1px 2px 1px white;
+}
+
+@keyframes subir-e-descer {
+    0%{
+        transform: translateY(-6px);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+}
+
+
+
+footer{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+footer span{
+    font-weight: 700;
+    text-decoration: underline;
+    animation: animaTexto 1.5s ease-in-out infinite;
+    cursor: pointer;
+}
+
+.contato{
+   
+    margin-top: 9px;
+    
+}
+
+.em{
+    display: flex;
+    justify-content: center;
+     margin-top: 9px;
+}
+
+p i{
+    font-size: 24px;
+    margin-left: 12px;
+   
+}
+
+.bi-youtube{
+    color: red;
+}
+
+.bi-instagram{
+    color: violet;
+}
+
+.bi-facebook{
+    color: rgb(0, 132, 255);
+}
+
+
+@keyframes animaTexto {
+    0%{
+        
+        font-size: 17.8px;
+        opacity: 1;
+    }
+
+    100%{
+        font-size: 12px;
+        opacity: 0;
+    }
+}
+
+
+@media  screen and (max-width: 1100px) {
+    header{
+        display: flex;
+      justify-content: space-around;
+    }
+    header h1{
+        font-size: 23px;
+        
+    }
+
+    header ul li a{
+        font-size: 15px;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    main h1{
+        font-size: 23px;
+    }
+
+    
+
+    /* .menu-mobile{
+        position: absolute;
+        top: 104%;
+        left: 0%;
+        background-color: #232323;
+        width: 100%;
+        height: 100vh;
+         display: block; 
+       
+    }
+
+    .menu-mobile nav ul li a{
+      
+      padding: 20px 40px;
+    } */
+
+    .ver-mais p{
+        font-size: 15px;
+    }
+
+    .bi-search{
+        font-size: 13px;
+    }
+
+    #contato{
+        width: 50px;
+        height: 20px;
+        font-size: 11px;
+        display: none;
+        
+    }
+}
