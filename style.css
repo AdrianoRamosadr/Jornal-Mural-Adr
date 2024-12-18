@@ -126,7 +126,7 @@ ul li a:hover{
     text-decoration: underline;
 }
 
-#search{
+/* #search{
     line-height: 2.6;
 }
 
@@ -140,7 +140,7 @@ ul li a:hover{
     font-size: 19px;
     font-weight: 800;
     cursor: pointer;
-}
+} */
 
 #contato{
     width: 100px;
