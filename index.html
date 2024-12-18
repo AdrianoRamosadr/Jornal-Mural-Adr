@@ -28,25 +28,27 @@
               </ul>
           </nav>
         </div>
-        <!-- <div class="menu-mobile">
+
+        <div class="menu-mobile" id="menu-mobile">
+      
           <nav>
-              <ul>
-                  <li><a href="#">Ínicio <i class="bi bi-house"></i> </a></li>
-                  <li><a href="#">Política</a></li>
-                  <li><a href="#">Sociedade <i class="bi bi-people"></i> </a></li>
-                  <li><a href="#">Economia<i class="bi bi-currency-pound"></i>  </a></li>
-                  <li><a href="#">Desporto <i class="bi bi-basket"></i> </a></li>
-                  <li><a href="#">Música<i class="bi bi-music-note"></i> </a></li>
-          
-              </ul>
+
+                <a href="#">Ínicio <i class="bi bi-house"></i> </a>
+                <a href="#">Política</a></li>
+                <a href="#">Sociedade <i class="bi bi-people"></i> </a>
+                <a href="#">Economia<i class="bi bi-currency-pound"></i>  </a></li>
+                <a href="#">Desporto <i class="bi bi-basket"></i> </a>
+                <a href="#">Música<i class="bi bi-music-note"></i> </a>
+
           </nav>
-        </div> -->
+       
+      </div>
         <div id="search">
       <i class="bi bi-search"></i>
         </div>
         <button id="contato">Contato</button>
 
-        <button class="btn-menu" id="menu-mobile">
+        <button onclick="animar()" class="btn-menu" id="btn-menu">
           <span class="linha"></span>
           <span class="linha"></span>
           <span class="linha"></span>
@@ -123,7 +125,7 @@
    
 </div>
   <section class="ver-mais">
-                       <p class="text-verMais" onclick="mostrarBox()">Ver mais &dArr;</p>
+                       <p class="text-verMais" onclick="mostrarBox(this)">Ver mais &dArr;</p>
                        <div class="esconder">
                         <div class="card-noticed">
            
@@ -226,8 +228,8 @@
    
 </div>
 <section class="ver-mais">
-    <p class="text-verMais" onclick="mostrarBox()">Ver mais &dArr;</p>
-    <div class="esconder">
+    <p class="text-verMais" onclick="mostrarBox(this)">Ver mais &dArr;</p>
+    <div class="esconder esconde">
      <div class="card-noticed">
 
          <div class="img21 box">
@@ -328,7 +330,7 @@
    
 </div>
 <section class="ver-mais">
-    <p class="text-verMais" onclick="mostrarBox()">Ver mais &dArr;</p>
+    <p class="text-verMais" onclick="mostrarBox(this)">Ver mais &dArr;</p>
     <div class="esconder">
      <div class="card-noticed">
 
@@ -407,7 +409,7 @@
    
 </div>
 <section class="ver-mais">
-    <p class="text-verMais" onclick="mostrarBox()">Ver mais &dArr;</p>
+    <p class="text-verMais" onclick="mostrarBox(this)">Ver mais &dArr;</p>
     <div class="esconder">
      <div class="card-noticed">
 
