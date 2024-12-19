@@ -500,68 +500,83 @@ margin-top: 37px;
     background-position: right center;
 
 }
+
+/*Games*/
 .img25{
-    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-image: url(imagens/games01.webp);
     background-size: cover;
     background-position: right center;
 
 }
 .img26{
-    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-image: url(imagens/games02.webp);
     background-size: cover;
     background-position: right center;
 
 }
 .img27{
-    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-image: url(imagens/games03.webp);
     background-size: cover;
     background-position: right center;
 
 }
 .img28{
-    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
-    background-size: cover;
-    background-position: right center;
+    background-image: url(imagens/games04.webp);
+    background-size: contain;
+    background-position: left center;
+
+}
+.img29{
+    background-image: url(imagens/games05.webp);
+    background-size: contain;
+    background-position: left center;
 
 }
 .img30{
-    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-image: url(imagens/games06.webp);
     background-size: cover;
     background-position: right center;
 
 }
 .img31{
-    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-image: url(imagens/games07.webp);
     background-size: cover;
     background-position: right center;
 
 }
 .img32{
-    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-image: url(imagens/games08.webp);
     background-size: cover;
     background-position: right center;
 
 }
+
+.im32{
+    
+    background-image: url(imagens/games10.webp);
+    background-size: cover;
+    background-position: right center;
+}
 .img33{
-    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-image: url(imagens/games09.webp);
     background-size: cover;
     background-position: right center;
 
 }
 .img34{
-    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-image: url(imagens/games13.webp);
     background-size: cover;
     background-position: right center;
 
 }
 .img35{
-    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-image: url(imagens/games12.webp);
     background-size: cover;
     background-position: right center;
 
 }
 .img36{
-    background-image: url(imagens/3iezsaxmzzs-jamie-street.jpg);
+    background-image: url(imagens/);
     background-size: cover;
     background-position: right center;
 
