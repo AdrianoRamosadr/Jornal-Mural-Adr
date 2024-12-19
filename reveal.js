@@ -38,6 +38,17 @@ function animar(){
     btn.classList.toggle('ativando')
 }
 
+function mudarModo(){
+    let corpo = document.querySelector('.dark')
+    let cab = document.querySelector('.cabecalho')
+    
+   
+    cab.classList.toggle('dark')
+    corpo.classList.toggle('light')
+    
+  
+  }
+
 
 
 

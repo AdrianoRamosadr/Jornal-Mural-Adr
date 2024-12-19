@@ -11,18 +11,18 @@
 
    <script src="https://unpkg.com/scrollreveal" defer></script>
 </head>
-<body>
-    <header id="header">
-       <i class="bi bi-info"></i>
+<body class="dark">
+    <header id="header" class="cabecalho">
+       
         <h1 class="">Jornal Mural</h1>
         <div class="menu">
           <nav>
               <ul>
                   <li><a href="#">Ínicio <i class="bi bi-house"></i> </a></li>
-                  <li><a href="#">Política</a></li>
+                  <li><a href="#">Política <i class="bi bi-globe"> </i></a></li>
                   <li><a href="#">Sociedade <i class="bi bi-people"></i> </a></li>
                   <li><a href="#">Economia<i class="bi bi-currency-pound"></i>  </a></li>
-                  <li><a href="#">Desporto <i class="bi bi-basket"></i> </a></li>
+                  <li><a href="#">Desporto <i class="bi bi-speedometer"></i> </a></li>
                   <li><a href="#">Música<i class="bi bi-music-note"></i> </a></li>
           
               </ul>
@@ -34,14 +34,17 @@
           <nav>
 
                 <a href="#">Ínicio <i class="bi bi-house"></i> </a>
-                <a href="#">Política</a></li>
-                <a href="#">Sociedade <i class="bi bi-people"></i> </a>
-                <a href="#">Economia<i class="bi bi-currency-pound"></i>  </a></li>
-                <a href="#">Desporto <i class="bi bi-basket"></i> </a>
-                <a href="#">Música<i class="bi bi-music-note"></i> </a>
+                <a href="#politica">Política</a></li>
+                <a href="#sociedade">Sociedade <i class="bi bi-people"></i> </a>
+                <a href="#economia">Economia<i class="bi bi-currency-pound"></i>  </a></li>
+                <a href="#desporto">Desporto <i class="bi bi-basket"></i> </a>
+                <a href="#musica">Música<i class="bi bi-music-note"></i> </a>
 
           </nav>
        
+      </div>
+      <div class="modo">
+        <button onclick="mudarModo()"><i class="bi bi-moon"></i></button>
       </div>
         <!-- <div id="search">
       <i class="bi bi-search"></i>
@@ -62,7 +65,7 @@
            
                 <div class="img1 box">
                    <span class="texto-box">
-                    Rui Rocha diz que Portugal perderia "bom militar" se Gouveia e Melo se candidatar a Belém.
+                   Oposição interna da IL procura nome para disputar liderança com Rui Rocha
                     <p class="artigo-data">02 Dez 2024</p>
                   </span>
                 </div> 
@@ -76,8 +79,7 @@
                 </div>
                 <div class="img3 box">
                     <span class="texto-box">
-                        O pensamento político de Gouveia 
-                    e Melo. Almirante centrista alia preocupações económicas e sociais.
+                       Rui Rocha diz que Portugal perderia "bom militar" se Gouveia e Melo se candidatar a Belém
                     <p class="artigo-data">02 Dez 2024</p>
                       </span>
                 </div>
@@ -100,8 +102,8 @@
                 </div>
                 <div class="img6 box">
                     <span class="texto-box">
-                        O pensamento político de Gouveia 
-                    e Melo. Almirante centrista alia preocupações económicas e sociais
+                        Ventura defende-se: Era uma ação 
+                        de "Comunicação" aos cidadãos para avisar que "estavam a ser roubados"
                     <p class="artigo-data">02 Dez 2024</p>
                       </span>
                 </div>
@@ -177,16 +179,16 @@
                 </div>
                 <div class="img14 box">
                     <span class="texto-box">
-                        O pensamento político de Gouveia 
-                    e Melo. Almirante centrista alia preocupações económicas e sociais
-                    <p class="artigo-data">02 Dez 2024</p>
+                      Villas-Boas quer andebol e hóquei feminino no F. C. Porto.
+
+                    <p class="artigo-data">15 Dez 2024</p>
                       </span>
                 </div>
                 <div class="img15 box">
                     <span class="texto-box">
-                        O pensamento político de Gouveia 
-                    e Melo. Almirante centrista alia preocupações económicas e sociais
-                    <p class="artigo-data">02 Dez 2024</p>
+                      
+                      Portugal manteve a sétima posição no ranking da FIFA, numa classificação em que Angola tem a maior subida.
+                    <p class="artigo-data">15 Dez 2024</p>
                       </span>
                 </div>
                 <div class="img16 box">
@@ -463,13 +465,51 @@
         </section>
 
         <section class="maisJornal">
-            <h2>+ Jornal</h2>
-            <div class="card-pequeno-e-pai">
-                <div class="card-pequeno">1</div>
-                <div class="card-pequeno">2</div>
-                <div class="card-pequeno">3</div>
-                <div class="card-pequeno">4</div>
-            </div>
+          <h1> ------------ + Jornal ------------ </h1>
+          <div class="card-noticed">
+                     
+                          <div class="img47 box">  <span class="texto-box">
+                                  O pensamento político de Gouveia 
+                              e Melo. Almirante centrista alia preocupações económicas e sociais
+                              <p class="artigo-data">02 Dez 2024</p>
+                                </span></div>
+                          <div class="img48 box">  <span class="texto-box">
+                                  O pensamento político de Gouveia 
+                              e Melo. Almirante centrista alia preocupações económicas e sociais
+                              <p class="artigo-data">02 Dez 2024</p>
+                                </span></div>
+                          <div class="img49 box">  <span class="texto-box">
+                                  O pensamento político de Gouveia 
+                              e Melo. Almirante centrista alia preocupações económicas e sociais
+                              <p class="artigo-data">02 Dez 2024</p>
+                                </span></div>
+                          <div class="img50 box">  <span class="texto-box">
+                                  O pensamento político de Gouveia 
+                              e Melo. Almirante centrista alia preocupações económicas e sociais
+                              <p class="artigo-data">02 Dez 2024</p>
+                                </span></div>              
+                          <div class="img51 box">  <span class="texto-box">
+                                  O pensamento político de Gouveia 
+                              e Melo. Almirante centrista alia preocupações económicas e sociais
+                              <p class="artigo-data">02 Dez 2024</p>
+                                </span></div>
+                          <div class="img52 box">  <span class="texto-box">
+                                  O pensamento político de Gouveia 
+                              e Melo. Almirante centrista alia preocupações económicas e sociais
+                              <p class="artigo-data">02 Dez 2024</p>
+                                </span></div>
+                          <div class="img53 box">  <span class="texto-box">
+                                  O pensamento político de Gouveia 
+                              e Melo. Almirante centrista alia preocupações económicas e sociais
+                              <p class="artigo-data">02 Dez 2024</p>
+                                </span></div>
+                          <div class="img54 box">  <span class="texto-box">
+                                  O pensamento político de Gouveia 
+                              e Melo. Almirante centrista alia preocupações económicas e sociais
+                              <p class="artigo-data">02 Dez 2024</p>
+                                </span></div>              
+             
+          </div>
         </section>
     </main>
 
